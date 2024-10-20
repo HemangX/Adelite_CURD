@@ -1,0 +1,512 @@
+{
+  "week1": {  
+    "week_title": "Understanding AF: causes, symptoms, diagnosis and quick overview of treatment",
+    "week_Objective": ["Understand how atrial fibrillation starts, and the symptoms and main pillars of treatment of atrial fibrillation "],
+    "week_Activity": "reading material, videos",
+    "week_desc": "Basics of electrical system of the heart and atrial fibrillation",
+    "week_explanation": "The heart has two upper chambers called atria and two bottom chambers called ventricles.The normal electrical system of the heart consists of a nerve in the upper right chamber called sinus node, it is the pacemaker you are born with. This gives an electrical signal that goes to both chambers of the heart, and then the signal travels to the nerve that is at the junction of the upper and lower chambers called AV node. Then the signals go down the AV node, down the electrical wire on the right called right bundle and wire on the left called left bundle, and then the heart acts like a motor and pumps blood.  There are usually 4 veins in the left atrium that bring oxygenated blood from the lungs back into the heart. Around these veins there are electrical connections that misfire chaotically and make your heart go irregular and make the heart go fast with rapid heart rate and this is known as atrial fibrillation.",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is an antiarrhythmic medication or drug?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>It is an abnormal rhythm originating in the top chambers of your heart that leads to an irregular and frequently fast rhythm. The normal intermittent electrical activity of your heart's top chambers is overwhelmed by a continuous irregular electrical activity.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the symptoms?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Afib symptoms can come and go, and they can vary. Talk to a healthcare professional if you experience one or more of these symptoms: IRREGULAR HEARTBEAT, HEART RACING, CHEST PAIN, SHORTNESS OF BREATH, FATIGUE, LIGHT-HEADEDNESS</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the types of Atrial Fibrillation? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>There are four types of atrial fibrillation:</p><ul><li><strong>Paroxysmal atrial fibrillation</strong> - comes and goes and usually lasts less than a week and stops without intervention by your health care provider.</li><li><strong>Persistent atrial fibrillation</strong> - Either you had treatment within the 1st week of onset with an electrical shock or medication and the duration is less than 1 year since your diagnosis.</li><li><strong>Long standing persistent atrial fibrillation</strong> - you have been in atrial fibrillation and the duration is more than 1 year since diagnosis.</li><li><strong>Permanent atrial fibrillation</strong> - you and your health care provider had made a decision to not make any more attempts to get you back to normal rhythm and just control your pulse and use a blood thinner to prevent stroke.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the treatment choices and risks associated with it, is one better over the other? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>So why is it important to treat atrial fibrillation Primarily for 4 reasons, we call them the 4 pillars of treatment. First, it may cause symptoms and affect your quality of life. The symptoms can vary from person to person and in intensity, with common symptoms including chest pain, shortness of breath, fatigue, and a decrease in exercise capacity. Second, when patients have a rapid heart rate for a prolonged period, it can weaken the heart muscle, decreasing the pump function we call ejection fraction, which can lead to congestive heart failure. Thus, we assess how well your heart rate is under control and use certain medications for it. Third, there is a risk of stroke. Based on your medical condition, we recommend a blood thinner, which generally reduces your risk to closer to 1%, while the risk of major bleeding is usually between 0.5% to 1%. For patients who cannot take blood thinners due to a higher risk of bleeding, we may recommend a procedure called left atrial appendage occlusion, using a device known as Watchman. Fourth, we may encourage lifestyle changes such as stopping smoking, reducing or stopping alcohol consumption, maintaining a healthy diet and weight, managing stress, and ensuring good sleep. We may also evaluate for sleep apnea, optimize blood pressure control, and manage diabetes, potentially making referrals to our interdisciplinary team of providers. If you experience symptoms affecting your quality of life, or if you lack symptoms but have risk factors, we recommend rhythm control. This can be achieved through anti-arrhythmic medications that suppress atrial fibrillation. We consider the type of medications based on your medical conditions and test results, keeping in mind the potential side effects and the need for monitoring with periodic blood tests and EKGs. Alternatively, ablation—whether through freezing (cryoablation), cauterization (radiofrequency), or non-thermal energy delivery (pulse field ablation)—can also be an option. While this does not cure atrial fibrillation, it provides relief 60-70% of the time for a year, after which it may recur, often necessitating a second procedure. We may continue treatment with antiarrhythmic medications to maintain normal rhythm. It's important to note that ablation does not mean you can stop blood thinners; the decision to continue or discontinue will depend on your medical conditions and the risk score known as the CHADS-VASc score, where a score of 2 to 3 or higher typically warrants continued blood thinner use.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How do you diagnose Atrial Fibrillation? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>A healthcare provider will recommend a 12 lead ECG, look at the strips from your smart wearables, or consider a heart monitor to establish the diagnosis of atrial fibrillation.</p> "
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Is Atrial Fibrillation dangerous?  ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>Atrial fibrillation can affect the quality of life.</li><li>Some studies have shown that it can cause frequent hospital admissions and congestive heart failure.</li><li>Furthermore, it can increase the risk of a stroke.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Is there a cure for it?  ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Once you have atrial fibrillation there is no cure for it, but you can slow the progression but controlling the risk factors.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Is there a way one can prevent it? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>One can prevent atrial fibrillation by working on risk factors and habits:<li><ul><li>Minimize alcohol intake.</li><li>No recreational drugs.</li><li>No smoking.</li><li>Maintain a healthy weight by eating an appropriate diet.</li></ul><li>If having the below risks, optimizing their control is important:</li><ul><li>Blood pressure control.</li><li>Lose weight if overweight or obese.</li><li>Be evaluated for and get treated for sleep apnea.</li><li>Diabetes control.</li></ul></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why does it recur after an ablation or treatment plan? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The exact cause of atrial fibrillation is unknown and there are different areas in the left upper chamber of the heart that can lead to atrial fibrillation. Though we treat the primary trigger near the pulmonary veins (veins that bring blood from your lungs back into the left upper chamber of the heart), there are other areas that can cause atrial fibrillation known as non-pulmonary vein triggers. </p>"
+      }
+    ]
+  },
+  "week2": {  
+    "week_title": "Rate Control Medications: types how they work, and side effects",
+    "week_Objective": ["Understand role of rate control in AF treatment and types of medications "],
+    "week_Activity": "Video, Heart rate log",
+    "week_desc": "Rate Control Explanation",
+    "week_explanation": "Rate control of afib is an important part of treatment. Controlling heart rates when in Afib is crucial to prevent damage to your heart and improve your quality of life. If your heart is beating too fast (greater than 110 beats per minute) for too many days, this can lead to heart failure. Ideally, your heart rate when in atrial fibrillation should be less than 110 beats per minute with the goal around 80–90 beats per minute. Not only does controlling your heart rate prevent heart failure, but it can also improve your quality of life. Many people live normal lives while in afib constantly all because their heart rates are under control. ",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Rate control medications?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p> Include metoprolol (a beta blocker) and diltiazem (a calcium channel blocker) and digoxin. These medicines work on the heart to lower heart rate and some even lower blood pressure. These are usually some of the first medications you will start for your afib treatment. Your provider may increase your dose over time to achieve the correct heart rate.<p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the Side effects of the medications",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Side effects of the medications can include fatigue, low blood pressure (hypotension), slow heart rates (bradycardia), and fatigue. Occasionally people feel a little tired when they first start the medicines, but this usually goes away within a few days. It is important to note changes in your symptoms when starting these medications. If you have lightheadedness or significant shortness of breath you should contact your provider. If you pass out or lose consciousness you should go to the ER. </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are Rate control medications and pacemakers?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Rate control medications and pacemakers: While these medications are good at slowing the heart rate down in afib, sometimes they can slow the heart rate down too much--especially when in a normal rhythm. These slow heart rates can cause fatigue, shortness of breath, lightheadedness, or even syncope. Instead of stopping the medications that help afib, a pacemaker can be implanted. This will allow you to continue to take the medications safely and at the correct dose. Now, you can be like Goldilocks: not too fast and not too slow-- just right! </p>"
+      }
+    ]
+  },
+  "week3": {  
+    "week_title": "Rhythm Control and Antiarrhythmic Medications",
+    "week_Objective": ["Understand role of rhythm control and purpose of medications"],
+    "week_Activity": "Reading material",
+    "week_desc": "",
+    "week_explanation": "",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why rhythm control?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>If you have symptoms affecting your quality of life, or if you don’t have symptoms but have risk factors, then we recommend rhythm control. The EAST-AFNET4 trial is an important clinical trial that showed high-risk patients had a lower chance of dying, heart failure, heart attack, or stroke if they were on a rhythm control strategy. High-risk patients include people over 65, those with heart failure, high blood pressure, diabetes, or heart failure. Click on the link to learn more about the EAST-AF trial.</p><p><strong>EAST-AFNET4</strong> is a clinical trial that demonstrated that in high-risk patients, an early rhythm control strategy with either antiarrhythmic drugs or ablation is associated with a lower risk of adverse cardiovascular outcomes compared with usual care (rate control therapy, with rhythm control limited to mitigate AF-related symptoms). This study included 2,789 patients with early AF (diagnosed within 1 year before enrollment) and the primary outcome was a composite of death from cardiovascular causes, stroke, or hospitalization with worsening heart failure or acute coronary syndrome. The rhythm control approach at 2 years in the group assigned to early rhythm control included catheter ablation in 19% of patients. After a median follow-up of 5.1 years, there was a lower chance of dying (mortality benefit), and a lower chance of worsening heart failure, heart attack (acute coronary syndrome), and stroke.</p><p><strong>High-risk patients in EAST-AFNET4:</strong></p><ul><li>Age older than 75 years.</li><li>Prior transient ischemic attack (mini stroke) or stroke.</li><li>Any two of the below criteria:</li><ul><li>Age older than 65 years.</li><li>Females.</li><li>Heart failure.</li><li>Elevated blood pressure or on treatment for high blood pressure (hypertension).</li><li>Diabetes (elevated blood sugars).</li><li>Severe heart artery blockages (coronary artery disease).</li><li>Chronic kidney disease.</li><li>Muscle thickening of the lower chamber of the heart (LV hypertrophy).<li></ul></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are antiarrhythmic medications? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Antiarrhythmic medications help control abnormal heart rhythms. They assist your heartbeat in returning to normal and can prevent or reduce atrial fibrillation (Afib) episodes. Some of these medications include Flecainide, Multaq, Amiodarone, Sotalol, and Tikosyn. Each medication has its own set of instructions and side effects, which your doctor will explain.</p><h3>Flecainide</h3><ul><li><strong>What it does:</strong> Flecainide helps control Afib by keeping your heart’s rhythm steady. It works best when taken with other medicines like beta blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem).</li><li><strong>Common side effects:</strong> Some people may feel dizzy or see blurry, with about 5-10% of patients experiencing these side effects.</li><li><strong>Monitoring:</strong> Your doctor will check your heart (using an EKG) and your electrolytes every 3 to 6 months to keep you safe. If you feel your heart beating fast or faint, tell your doctor right away.</li><li><strong>Who should avoid it:</strong> Flecainide is not safe for people who have had a heart attack or heart failure. Doctors also perform stress tests every 3 to 5 years while you’re on this medicine.</li><li><strong>Success rate:</strong> Flecainide helps maintain a regular heart rhythm in about 30-50% of people after 1 year.</li><li><strong>Drug interactions:</strong> Some medicines may not work well with Flecainide, so always check with your doctor or pharmacist before starting new medications.</li></ul><h3>Multaq (Dronedarone)</h3><ul><li><strong>Monitoring:</strong> You don’t need special tests for your thyroid or lungs while on Multaq, but your heart rhythm should be checked every 3-6 months. Your doctor may also check your liver and kidneys.</li><li><strong>Food instructions:</strong> Take Multaq with your full morning and evening meals, but avoid drinking grapefruit juice as it can interfere with the medicine.</li><li><strong>Side effects:</strong> Common side effects include diarrhea, nausea, stomach pain, and weakness.</li><li><strong>Blood thinners:</strong> Multaq can increase the risk of bleeding if you’re also on blood thinners like rivaroxaban (Xarelto) or apixaban (Eliquis). Your doctor might lower the dose of these blood thinners to keep you safe.</li></ul><h3>Amiodarone</h3><ul><li><strong>What it does:</strong> Amiodarone helps control Afib but can have long-term side effects, so you need regular check-ups.</li><li><strong>Monitoring:</strong> Your doctor will check your thyroid, lungs, liver, and heart every 6 months to 1 year. You’ll also need yearly eye exams.</li><li><strong>What to watch for:</strong><ul><li>Dry cough or breathing trouble.</li><li>Slow or fast heartbeats.</li><li>Changes in vision.</li><li>Nausea or constipation.</li><li>Skin changes, like sensitivity to sunlight.</li><li>Numbness or tremors (shaky hands).</li></ul></li><li><strong>Drug interactions:</strong> Amiodarone can affect other medicines like warfarin (blood thinner), digoxin (heart medicine), and certain cholesterol medications (e.g., simvastatin). It can also interact with medications for erectile dysfunction (e.g., Viagra) and antidepressants.</li><li><strong>Proarrhythmia risk:</strong> Amiodarone can sometimes cause dangerous fast heart rhythms, so doctors check your heart (using an EKG) every 3-6 months.</li></ul><h3>Sotalol</h3><ul><li><strong>Starting the medication:</strong> Sotalol can be started either in the hospital or at home, but your doctor will carefully monitor your heart rhythm (QT interval) with an EKG.</li><li><strong>Monitoring:</strong> Your doctor will check your electrolytes (potassium and magnesium) and kidney function. They will also teach you about possible risks, drug interactions, and symptoms to watch for, like feeling dizzy or faint.</li><li><strong>Side effects:</strong> Tell your doctor if you have fast heartbeats, dizziness, or fainting spells.</li></ul><h3>Dofetilide (Tikosyn)</h3><ul><li><strong>Starting the medication:</strong> Tikosyn must be started in the hospital so doctors can monitor your heart rhythm closely.</li><li><strong>Monitoring:</strong> Your doctor will check your kidney function and heart rhythm (QT interval) before deciding the right dose for you. This check will be repeated every 3 months.</li><li><strong>What to watch for:</strong> Like other antiarrhythmic medications, Tikosyn can sometimes cause fast heart rhythms, so regular follow-up is important.</li><li><strong>Side effects:</strong> Common side effects include headache, chest pain, dizziness, and nausea.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Safe Antidepressants with Antiarrhythmic Medications?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Some antidepressants can worsen your heart rhythm. If you need an antidepressant while taking antiarrhythmic medications, your doctor may recommend safer options, such as:</p><ul><li>Fluoxetine (Prozac)</li><li>Paroxetine (Paxil)</li><li>Sertraline (Zoloft)</li><li>Bupropion (Wellbutrin)</li></ul><p>Your doctor will monitor your heart closely to keep you safe if you need both medications.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Important Reminders for All Antiarrhythmic Medications?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p><strong>Follow-up visits:</strong> It’s important to visit your doctor regularly. They will check your heart, blood, and kidneys to ensure the medications are working and are safe for you.</p><p><strong>Diet and medications:</strong> Some foods and medications can interact with antiarrhythmic drugs. Always inform your doctor about any new medications or supplements.</p><p><strong>When to call the doctor:</strong> If you feel dizzy, faint, or experience fast heartbeats, call your doctor right away. Always check in if you feel different or worried.</p>"
+      }
+    ]
+  },
+  "week4": {
+    "week_title": "Rhythm Control with Catheter ablation",
+    "week_Objective": ["Understand ablation, risks of procedure, and what to look for after procedure "],
+    "week_Activity": "Reading material, video",
+    "week_desc": "What is catheter ablation? ",
+    "week_explanation": "<p>Catheter ablation is a specialized procedure used to treat atrial fibrillation (afib). The technical name for afib ablation is Pulmonary Vein Isolation. This minimally invasive procedure involves inserting a thin tube (catheter) through a blood vessel in the groin area to the inside of the heart. High bursts of energy from the tips of the catheter are used to destroy tiny areas of heart tissue to help prevent afib. The high-powered energy is in the form of heat, cold, or electricity. These different techniques are called radio frequency (heat), cryoablation (cold), or pulsed field (electricity).</p>",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How does catheter ablation work? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The purpose of ablation is to destroy or isolate the abnormal electrical pathways that cause afib. By destroying tissue, scars are formed that do not allow the abnormal afib impulses to reach the rest of the heart. This can restore a normal heart rhythm and reduce symptoms from afib.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How is catheter ablation performed? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The procedure is performed in a special Electrophysiology lab. First, you are sedated and a breathing tube is inserted down your throat (intubation). Several thin tubes (catheters) are inserted through the groin into a blood vessel. The catheters are then guided to the inside of the heart where afib happens. The Electrophysiologist uses sophisticated equipment to make a 3D map of your heart and the irregular afib signals. They then will deliver high bursts of energy in very specific locations to destroy tissue. The procedure will take a few hours. You will have to lie flat for a couple of hours after the procedure to prevent bleeding from your groin area. Your doctor will evaluate you and decide if it is safe for you to go home. If needed, you may have to stay overnight in the hospital for observation</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why do I need a catheter ablation? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Ablation is done to provide long-term freedom from atrial fibrillation and reduce symptoms. Some people benefit from ablation to help prevent instances of afib. Others may not be able to take medicines that control afib and ablation is the only option. If you have heart failure as well as afib, an afib ablation can help improve heart failure symptoms (site cabana) and keep you out of the hospital. </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What to expect after the ablation?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>After an ablation, it is common to have bruising and a little swelling in the groin area where the catheters were inserted. This bruising usually resolves within a couple of weeks. Less commonly there might be slight bleeding which is caused by residual blood trapped under the skin or from small blood vessels near the skin’s surface. Some people have episodes of afib after an ablation due to the irritation caused from the ablation. Back pain from lying flat during the procedure is common. Worsening of acid reflux and mild chest pain can also occur. (site HRS guidelines)</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the risks of catheter ablation?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The procedure does have risks. Major risks are less than 2%. These risks include death, bleeding around the sack of the heart (tamponade), stroke, damage to the esophagus, damage to blood vessels, or damage to the lungs. The overall risk of a complication is about 5% including bleeding or other minor complications. While ablation can significantly improve quality of life, it requires careful consideration and consultation with a healthcare provider. (site HRS guidelines) </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "After the ablation, when should I contact my doctor? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>If you experience any of the following, you should go to the emergency room (ER):</p><ul><li>Bleeding that lasts for more than 30 minutes.</li><li>Chest pain or shortness of breath for more than 30 minutes.</li><li>Stroke-like symptoms.</li><li>An episode of atrial fibrillation (Afib).</li></ul>"
+      }
+    ]
+  },
+  "week5": {
+    "week_title": "Rhythm Control with Surgical ablation",
+    "week_Objective": ["Understand surgical ablation and differences from catheter ablation"],
+    "week_Activity": "Reading material, video",
+    "week_desc": "",
+    "week_explanation": "You have learned about catheter ablation which is done on the inside of the heart. There is also surgical ablation which is done on the outside of the heart. Surgical ablation is perfomed by a cardiothoracic surgeon. Sometimes surgical ablation and catheter ablation are combined to complete a full ablation. Here are the two common sugical ablations: MAZE and Convergent",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is the Maze Procedure? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The maze procedure is a type of heart surgery used to treat Afib. The surgeon makes small cuts or uses energy (like heat or cold) to create a pattern of scar tissue in the heart. This scar tissue acts like a maze (or pathway) and helps guide the heart's electrical signals back into a normal rhythm. </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is the Maze Procedure? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The maze procedure is a type of heart surgery used to treat Afib. The surgeon makes small cuts or uses energy (like heat or cold) to create a pattern of scar tissue in the heart. This scar tissue acts like a maze (or pathway) and helps guide the heart's electrical signals back into a normal rhythm</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How Does the Maze Procedure Work? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Normally, your heart’s electrical signals travel smoothly to tell your heart when to beat. With Afib, these signals go wild. During the maze procedure, the surgeon creates a new “pathway” for these signals to follow so that your heart can beat regularly again. </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How is the Maze Procedure Done? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>The surgeon makes small cuts or uses special tools to treat the tissue in the heart.</li><li>The procedure can be performed during open-heart surgery (often at the same time as other surgeries like valve repair) or sometimes with less invasive tools like a catheter.</li><li>After the procedure, the scar tissue blocks the abnormal electrical signals that cause atrial fibrillation (Afib).</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why Do I Need the Maze Procedure? Doctors may recommend the maze procedure if: ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>Other treatments (like medications or ablations) haven’t worked to fix your Afib.</li><li>You are already having surgery for another heart problem, and the surgeon can treat Afib at the same time.</li><li>You are at high risk of complications from Afib, such as stroke or heart failure.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are Benefits of the Maze Procedure?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>It can help restore a regular heart rhythm.</li><li>It may reduce the need for medications to control your heart.</li><li>It can lower your risk of stroke and other heart problems caused by Afib.<li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What to Expect After Surgery?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>You may stay in the hospital for several days after the procedure to recover.</li><li>Your doctor will check your heart rhythm regularly to ensure the procedure worked.</li><li>You may still need medications, but many people can reduce or stop them after healing.</li><li>It takes time for the heart to heal, and you might experience some Afib episodes before your heart adjusts.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are Risks of the Maze Procedure?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>Like all surgeries, the maze procedure has some risks, such as:</li><ul><li>Bleeding or infection.</li><li>Stroke or other complications.</li><li>In rare cases, the procedure may not fully stop Afib.</li></ul></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What Should I Do After the Maze Procedure? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>Follow your doctor’s instructions for recovery.</li><li>Take your medications as directed, even if you feel better.</li><li>Go to your follow-up visits to check your heart’s progress.</li><li>Tell your doctor if you have any new symptoms, such as chest pain or shortness of breath.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is a Convergent Procedure for Atrial Fibrillation?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "The convergent procedure is a special treatment for people who have atrial fibrillation (Afib), which is when your heart beats in an irregular and fast way. "
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What happens during the convergent procedure?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>In this procedure, two doctors work together to fix the Afib: a heart surgeon and a heart rhythm specialist (called an electrophysiologist).</li><li>The surgeon makes a small cut just below your rib cage to reach the heart. The surgeon uses special tools to create tiny scars on the outside of your heart. These scars help stop the irregular electrical signals that cause Afib.</li><li>Then, the electrophysiologist goes inside the heart using a thin tube called a catheter to make more tiny scars on the inside of the heart. This helps guide the heart’s electrical signals back into a regular pattern.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why is it called \"convergent\"?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p> It’s called convergent because the two doctors (the surgeon and the electrophysiologist) work together, or converge, to treat both the outside and inside of the heart in one procedure. </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why do people get the convergent procedure? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>It’s used for people who have persistent or long-lasting Afib, especially when other treatments haven’t worked.</li><li>The goal is to stop Afib and help your heart beat in a regular rhythm again.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the benefits? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>The convergent procedure can improve your heart rhythm.</li><li>It may help you feel less tired and out of breath.</li><li>It can reduce your risk of other heart problems, like stroke.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What happens after the procedure? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>You’ll stay in the hospital for a few days to recover.</li><li>Your doctor will keep checking your heart’s rhythm to ensure the procedure worked.</li><li>You might still need medications, but the procedure can help reduce how much you need.</li></ul>"
+      }
+    ]
+  },
+  "week6": {
+    "week_title": "Rhythm Control with Electrical cardioversion",
+    "week_Objective": ["Understand surgical ablation and differences from catheter ablation"],
+    "week_Activity": "Reading material, video",
+    "week_desc": "",
+    "week_explanation": "",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is electrical cardioversion?  ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Electrical cardioversion (DCCV) is a procedure where a controlled electrical shock is delivered to the heart to reset its rhythm back to normal.  </p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why would I have a cardioversion? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>A cardioversion is performed when the heart stays in afib continuously. Returning your heart to normal sinus rhythm can improve afib symptoms and decrease the risk of damage to the heart caused by afib. Often, it is combined with antiarrhythmic medicines to help keep you in sinus rhythm afterward.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is the procedure for cardioversion? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<ul><li>You will have sticky pads placed on your chest and back. You will be sedated but still breathing on your own. Sometimes a TEE (transesophageal echocardiogram) is done just before the DCCV to ensure there are no blood clots in the heart. Then, a high-powered jolt of electricity is delivered through the pads to reset your heart's electrical system. The whole procedure only lasts a few minutes.</li></ul><p><strong>What should I expect after the procedure?</strong></p><ul><li>After the procedure, you may have skin irritation, like a sunburn, where the sticky electrical pads were placed on your skin.</li><li>Patients often take blood thinners (anticoagulation) before and after the procedure to reduce the risk of stroke.</li><li>You should go to the ER if you experience significant shortness of breath, lightheadedness, or stroke-like symptoms.</li><li>You should contact your provider if your Afib returns.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How is cardioversion different from ablation?  ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Cardioversion is not a long-term fix. This procedure is used as a tool to help GET your heart back to a normal rhythm. Taking medicines, ablation, and making good lifestyle changes are what helps KEEP your heart in a normal rhythm. There really is not a limit to the number of cardioversions you can have.</p>"
+      }
+    ]
+  },
+  "week7": {
+    "week_title": "Stroke Prevention",
+    "week_Objective": ["Watch a short video or use flashcards to learn the signs of a stroke. Remember: FAST (Face drooping, Arm weakness, Speech difficulty, Time to call 911)","Watch a short animation of the Watchman device. Discuss what you learned and how this procedure works to prevent stroke"],
+    "week_Activity": "Reading material, video",
+    "week_desc": "",
+    "week_explanation": "",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What is a Stroke? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>A stroke happens when a blood clot blocks blood flow to your brain, meaning your brain can’t get enough oxygen.</p><p>A stroke can cause serious problems, such as:</p><ul><li>Difficulty speaking or understanding speech.</li><li>Weakness in your arms or legs.</li><li>Difficulty walking or seeing.</li></ul><p>Some strokes can be life-threatening, but most strokes can be prevented if you take care of your heart.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are Medications for Stroke Prevention ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>One way to prevent stroke in Afib is by taking special medications called blood thinners. These medications help prevent blood clots from forming.</p><p>Common blood thinners include:</p><ul><li>Warfarin (Coumadin)</li><li>Apixaban (Eliquis)</li><li>Rivaroxaban (Xarelto)</li><li>Dabigatran (Pradaxa)</li></ul><p>Your doctor will decide which one is best for you. It's important to take your medication every day, exactly as your doctor instructs.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What Lifestyle Changes can be done to Prevent Stroke ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Making healthy choices every day can reduce your risk of stroke. Here’s what you can do:</p><ul><li><strong>Eat a heart-healthy diet:</strong> Choose fruits, veggies, whole grains, and lean proteins. Avoid too much salt, sugar, and fried food.</li><li><strong>Be physically active:</strong> Move your body for at least 30 minutes a day. It could be walking, biking, or playing sports.</li><li><strong>Avoid smoking and limit alcohol:</strong> Smoking and drinking alcohol can make Afib and stroke worse.</li><li><strong>Control high blood pressure and diabetes:</strong> These conditions can increase the risk of stroke, so take any medications your doctor gives you.</li><li><strong>Sleep well:</strong> Make sure you’re getting enough sleep and talk to your doctor if you snore a lot. This could be a sign of sleep apnea, which increases stroke risk.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are Procedures to Lower Stroke Risk ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Some people can’t take blood thinners because they might bleed too much. In these cases, doctors may suggest a procedure to help prevent stroke.</p><p>One common procedure is called the Watchman device:</p><ul><li>This is a small device placed inside the heart to block off the area where blood clots usually form.</li><li>This helps prevent blood clots without needing long-term blood thinners.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Recognizing the Signs of Stroke and What to Do?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Recognizing the signs of a stroke can save lives. Remember FAST:</p><ul><li><strong>F – Face drooping:</strong> One side of the face may droop or feel numb.</li><li><strong>A – Arm weakness:</strong> One arm may feel weak or numb.</li><li><strong>S – Speech difficulty:</strong> The person may have trouble speaking or understanding.</li><li><strong>T – Time to call 911:</strong> If you see these signs, call 911 right away.</li></ul><p>The faster you get help, the better the chances of recovery.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "left Atrial Appendage Occlusion Devices for Stroke Prevention What is a Left Atrial Appendage Occlusion Device (LAAO)? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Atrial Fibrillation (Afib) can cause your heart to beat irregularly, which can lead to blood clots forming in a part of the heart called the left atrial appendage.</p><p>These blood clots can travel to the brain and cause a stroke.</p><p>A left atrial appendage occlusion (LAAO) device helps block off this part of the heart so clots can’t form there, reducing the risk of stroke.</p><p>The most common LAAO device is called the Watchman device.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Who Needs a Left Atrial Appendage Occlusion Device? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Not everyone with Afib needs an LAAO device. It’s usually for people who:</p><ul><li>Have atrial fibrillation and are at high risk of stroke.</li><li>Cannot take blood thinners for a long time (blood thinners are medicines that prevent clots but can cause bleeding).</li><li>Have had problems with blood thinners, like bleeding or other complications.</li></ul><p>Doctors will evaluate each patient to decide if they are a good candidate for this device.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How is the procedure performed? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The procedure is minimally invasive, which means it’s not a major surgery.</p><p>Here’s how it works:</p><ul><li>You are given medicine so you sleep during the procedure.</li><li>The doctor makes a small cut in your leg and uses a thin tube called a catheter to reach your heart.</li><li>The LAAO device is inserted through the catheter and placed in the left atrial appendage of your heart.</li><li>Once the device is in place, it blocks off the area where blood clots form.</li><li>The procedure takes about an hour, and most people can go home the next day.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are the Complications of the Procedure? ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Most people do well after the procedure, but like any procedure, there are some risks. These include:</p><ul><li>Bleeding at the place where the catheter was inserted.</li><li>A small chance of infection.</li><li>Device complications, such as the device moving out of place.</li><li>Rarely, there may be stroke or heart damage from the procedure itself.</li></ul><p>Doctors will monitor you closely to reduce these risks and make sure everything goes smoothly.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What Follow-Ups Are Needed After the Procedure?  ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>After the procedure, you will need regular check-ups with your doctor to make sure the device is working properly.</p><p>You may need to take blood thinners for a short time after the procedure until the device is fully in place and your heart heals.</p><p>Your doctor will likely do a test called a TEE (transesophageal echocardiogram) to check the position of the device about 45 days after the procedure.</p><p>You may need other tests over the next few months to make sure there are no blood clots forming and the device is in the right spot.</p><p>Regular follow-ups are very important to make sure you stay healthy!</p>"
+      }
+    ]
+  },
+  "week8": {
+    "week_title": "Importance of Lifestyle Modifications",
+    "week_Objective": ["Understand importance of lifestyle modifications to reduce recurrence of afib and improve overall burden."],
+    "week_Activity": "Reading material, video",
+    "week_desc": "",
+    "week_explanation": "",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Why are lifestyle changes needed when diagnosed with atrial fibrillation?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Lifestyle changes are just as important as medicines when treating afib. Lifestyle changes help to decrease afib episodes and improve symptoms. Lifestyle changes can also improve risk-factors that lead to afib. Some people can almost completely eradicate their afib with lifestyle changes.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are lifestyle changes?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>To manage your health and reduce the risk of Atrial Fibrillation (Afib), consider the following lifestyle changes:</p><ul><li>Keeping an ideal weight or weight loss if overweight or obese.</li><li>Pursue a physically active lifestyle with the goal of exercising for 210 minutes per week.</li><li>Walking outside, stretching, and body weight exercises are good activities to start with.</li><li>Decreasing alcohol intake is very important.</li><li>Drinking less than 1 standard alcoholic drink per day or abstaining altogether is best.</li><li>Avoid binge drinking.</li><li>Stop smoking.</li><li>Counseling and/or medications can help with smoking cessation.</li><li>Manage stress.</li><li>High stress can lead to increases in hormones that can cause Afib episodes.</li><li>Learning to manage stress with meditation, physical activity, and avoiding stressful triggers can improve Afib.</li></ul><p>For additional resources, refer to the reading material and the link to the app.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What are The Importance of a Healthy Diet?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Understand how eating healthy can lower your risk of Afib.</p><p>Eating a heart-healthy diet can lower your risk of Afib and improve your overall health.</p><p>A heart-healthy diet includes:</p><ul><li><strong>Fruits and vegetables:</strong> These provide important vitamins and minerals.</li><li><strong>Whole grains:</strong> Foods like brown rice and oatmeal are good for your heart.</li><li><strong>Lean proteins:</strong> Chicken, turkey, fish, and plant-based proteins help build muscle without too much fat.</li><li><strong>Healthy fats:</strong> Olive oil and nuts are good fats for your heart.</li></ul><p>Avoid foods that are high in salt, sugar, and unhealthy fats. These can raise your blood pressure and make Afib worse.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are Physical Activity and Atrial Fibrillation ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Exercise helps keep your heart healthy and lowers your risk of Afib.</p><p>You don’t need to run a marathon—just aim for 30 minutes of activity most days.</p><p>Examples of heart-healthy activities include:</p><ul><li>Walking</li><li>Riding a bike</li><li>Swimming</li><li>Playing sports</li></ul><p>Exercise can also help you maintain a healthy weight, which lowers your Afib risk.</p>"
+      }
+    ]
+  },
+  "week9": {
+    "week_title": "Importance of Risk Factor Modifications",
+    "week_Objective": [],
+    "week_Activity": "Create a blood pressure log , Practice a simple relaxation technique like deep breathing or stretching to manage stress. ",
+    "week_desc": "Understanding Risk Factors for Atrial Fibrillation ",
+    "week_explanation": "<p>Some things can make it more likely to develop Afib. These are called risk factors.</p><p>Common risk factors for Afib include:</p><ul><li><strong>High blood pressure:</strong> This can make your heart work too hard.</li><li><strong>Obesity:</strong> Being overweight can strain your heart.</li><li><strong>Diabetes:</strong> High blood sugar can damage your heart and blood vessels.</li><li><strong>Sleep apnea:</strong> This is a condition where breathing stops and starts during sleep.</li><li><strong>Smoking:</strong> It harms your heart and blood vessels.</li><li><strong>Drinking too much alcohol:</strong> Alcohol can make your heartrhythm worse.</li></ul>",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "what are the Harm of Smoking and Alcohol ?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Smoking damages your blood vessels and raises your risk of Afib.</p><p>Quitting smoking is one of the best things you can do for your heart.</p><p>Drinking too much alcohol can trigger Afib and make it worse.</p><p>It's okay to have a little alcohol (ask your doctor how much is safe), but binge drinking can be very harmful.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How to Manage High Blood Pressure and Diabetes ?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p><strong>Objective:</strong> Learn how controlling high blood pressure and diabetes can help prevent Afib.</p><p><strong>Key Points:</strong></p><ul><li><strong>High blood pressure</strong> puts extra strain on your heart, so it’s important to control it with:<ul><li>Healthy eating</li><li>Regular exercise</li><li>Medications, if needed</li></ul></li><li><strong>Diabetes</strong> can damage your blood vessels and increase Afib risk. You can manage diabetes by:<ul><li>Eating healthy foods low in sugar</li><li>Exercising regularly</li><li>Taking your medication as prescribed</li></ul></li></ul><p>Keeping your blood pressure and blood sugar in a healthy range will help protect your heart.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "What's The Importance of Sleep and Stress Management ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>Getting enough sleep every night is important for your heart.</p><p>People with sleep apnea (a condition where breathing stops during sleep) are at higher risk for Afib.</p><p>If you snore a lot or feel very tired during the day, talk to your doctor about being tested for sleep apnea.</p><p>Managing stress is also important. Stress can cause your heart to beat irregularly.</p><p>Relaxation activities like yoga, deep breathing, and spending time outside can help reduce stress.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Putting It All Together—Your Afib Risk Reduction Plan ",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p><strong>Review what you’ve learned:</strong></p><ul><li>Control high blood pressure and diabetes</li><li>Quit smoking and limit alcohol</li><li>Eat a heart-healthy diet</li><li>Exercise regularly</li><li>Get enough sleep and manage stress</li></ul><p>By making these changes, you can lower your risk of Afib and keep your heart strong.</p><p><strong>Create a personalized Afib Risk Reduction Plan that includes:</strong></p><ul><li>Healthy foods you will eat</li><li>Physical activities you enjoy</li><li>Habits to quit (like smoking) or limit (like alcohol)</li><li>Strategies for managing stress</li></ul><p>Set small, achievable goals for each area and track your progress.</p>"
+      }
+    ]
+  },
+  "week10": {
+    "week_title": "Managing Symptoms: Dealing with Fatigue, Palpitations, and Stress",
+    "week_Objective": [],
+    "week_Activity": "Create a blood pressure log , Practice a simple relaxation technique like deep breathing or stretching to manage stress. ",
+    "week_desc": "Managing palpitations and fatigue with afib:  ",
+    "week_explanation": "<p>Afib symptoms can include fatigue and palpitations or racing heart beats. The symptoms can lead to increased stress if not addressed. If episodes of a fib lead to an increase in fatigue and tiredness a good thing to do is to lay down and rest in a quiet and dark place. Try taking a nap. This can help the heart reset itself and return to a normal rhythm. If you have frequent episodes of fatigue, you should speak with your provider about treatment options including medications or procedures. Palpitations or racing heart beats can be alarming. You and your provider can create a plan such as taking extra medication and resting if this happens. It is important not to panic or become more anxious if this if you experience racing heart beats.</p>",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "When should I go to the ER?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>If you feel you should go to the ER then please go to the ER. If you have severe chest pain or shortness of breath with afib episodes you should go to the ER.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How to Manag stress?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<p>The symptoms of afib can lead to increased anxiety and stress. By learning to recognize the signs and increasing your knowledge of afib you can prevent anxiety. Create an action plan with your provider so you feel prepared when afib episodes happen. It is important to not let afib rule your life. </p>"
+      }
+    ]
+  },
+  "week11": {
+    "week_title": "AF treatment complications and how to prevent them",
+    "week_Objective": [],
+    "week_Activity": "Create a “Healthy Heart Plan” that includes healthy meals, exercise goals, and ways to manage stress. ",
+    "week_desc": "What Are the Complications of Afib Treatments  ",
+    "week_explanation": "<h5>Atrial Fibrillation Management</h5><h5>1. Rate Control (Heart Rate Control)</h5><p>See Week 2.</p><h5>2. Rhythm Control</h5><ul><li><strong>Antiarrhythmic Medications:</strong> See Week 3.</li><li><strong>Ablation and Cardioversion:</strong> See Weeks 4-6.</li></ul><h5>3. Stroke Prevention</h5><ul><li><strong>Blood Thinners:</strong> See Week 7.</li><li><strong>Left Atrial Appendage Occlusion:</strong> Information on preventing stroke through LAAO.</li></ul>",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How to Prevent Complications from Afib Treatment?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<h5>Blood Thinners</h5><ul><li>Take your medicine exactly as your doctor tells you.</li><li>Avoid activities that can cause injury, like rough sports.</li><li>Tell your doctor if you notice any unusual bleeding (like bleeding gums or easy bruising).</li><li>Avoid certain foods and medications that may interact with blood thinners, like vitamin K (found in green leafy vegetables) or aspirin.</li></ul><h5>Ablation and Cardioversion</h5><ul><li>Follow your doctor’s instructions after the procedure, like resting and avoiding heavy lifting.</li><li>Watch for signs of infection, like fever or redness at the site where the doctor worked.</li></ul><h5>Left Atrial Appendage Occlusion (LAAO) Device</h5><ul><li>Attend all follow-up appointments to make sure the device is in the right place.</li><li>Take any medications as directed after the procedure.</li><li>Watch for signs of infection, like pain or swelling in your chest.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "The Importance of Follow-Up Care After Ablation ?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<h5>After Catheter Ablation</h5><ul><li>You’ll need to see your doctor for follow-up visits to make sure your heart is healing well.</li><li>Your doctor may do an EKG or other tests to check your heart rhythm and make sure there are no complications.</li><li>Some people may still have episodes of Afib after ablation, but many notice a big improvement in their symptoms.</li><li>It’s important to take any prescribed medications and attend all follow-up appointments to catch any problems early.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How a Healthy Lifestyle Can Help After Catheter Ablation ?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<h5>Eating a Heart-Healthy Diet</h5><ul><li>Eating a heart-healthy diet can support your heart and help prevent complications.</li><li>Eat plenty of fruits, vegetables, and whole grains.</li><li>Avoid foods high in salt, sugar, and unhealthy fats.</li><li>Exercise regularly to keep your heart strong, but follow your doctor’s advice about which activities are safe.</li><li>Avoid smoking and limit alcohol, as these can increase the risk of Afib returning.</li><li>Manage stress with relaxation techniques like deep breathing, yoga, or meditation.</li></ul>"
+      }
+    ]
+  },
+  "week12": {
+    "week_title": "Follow-up care, summarization and long-term management",
+    "week_Objective": ["Understand the need for continued follow-up care and role of long-term management in treatment of afib"],
+    "week_Activity": "Create a “Healthy Heart Plan” that includes healthy meals, exercise goals, and ways to manage stress. ",
+    "week_desc": "Long-term management of atrial fibrillation",
+    "week_explanation": "<p>Unfortunately, there is no cure for afib. Afib is a chronic condition you will live with for the rest of your life. It is important to remember that it does not have to control you. If you follow the treatment plan created with your provider you will be in control of afib.  <p>",
+    "content": [
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "Key Components of Long-Term Afib Management:",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<h5>1. Rate Control</h5><p>The goal is to manage the heart rate to keep it within a safe range. Rate control medications like beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem) are commonly prescribed to slow down the heart rate during afib episodes.</p><h5>2. Rhythm Control</h5><p>Rhythm control aims to restore and maintain a normal heart rhythm (sinus rhythm). This can be done with medications called antiarrhythmics (e.g., amiodarone), or through procedures like electrical cardioversion (shocking the heart to reset its rhythm) and catheter ablation (destroying small areas of heart tissue causing abnormal signals).</p><h5>3. Stroke Prevention</h5><p>Afib increases the risk of blood clots forming in the heart, which can lead to a stroke. Long-term management often includes anticoagulation therapy (blood thinners like warfarin, or newer medications such as apixaban or rivaroxaban) to reduce this risk.</p><h5>4. Lifestyle Changes</h5><p>Healthy lifestyle changes are crucial for managing afib and preventing episodes. Important changes include:</p><ul><li>Maintaining a healthy weight</li><li>Regular exercise (but avoiding extreme exertion like marathons)</li><li>Reducing alcohol consumption and avoiding binge drinking</li><li>Quitting smoking</li><li>Managing stress with techniques like meditation or counseling</li><li>Controlling other health conditions such as high blood pressure, diabetes, or sleep apnea, which can worsen Afib</li></ul><h5>5. Medication Management</h5><p>Patients may be on a combination of medications for rate control, rhythm control, and stroke prevention. Regular monitoring is needed to ensure the right balance of medications and to manage any side effects.</p><h5>6. Monitoring and Follow-up</h5><p>Regular check-ups with a healthcare provider, including tests like electrocardiograms (ECG), are important for monitoring the effectiveness of treatment. Adjustments in medications or procedures may be needed over time.</p><h5>7. Pacemaker and Device Therapy</h5><p>In some cases, a pacemaker may be needed if medications slow the heart too much. For patients with severe afib and heart failure, a left atrial appendage closure device (e.g., Watchman) may be used to prevent strokes without long-term use of blood thinners.</p><h5>8. Patient Education and Self-Care</h5><p>Understanding Afib and knowing how to recognize symptoms of an Afib episode,stroke, or worsening heart conditions are essential. Patients should work with their healthcare team to create an action plan for handling symptoms.</p>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "The Importance of Follow-Up Care After Ablation ?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<h5>After Catheter Ablation</h5><ul><li>You’ll need to see your doctor for follow-up visits to make sure your heart is healing well.</li><li>Your doctor may do an EKG or other tests to check your heart rhythm and make sure there are no complications.</li><li>Some people may still have episodes of Afib after ablation, but many notice a big improvement in their symptoms.</li><li>It’s important to take any prescribed medications and attend all follow-up appointments to catch any problems early.</li></ul>"
+      },
+      {
+        "photo": "https://storageaccountforpublic.blob.core.windows.net/publiccontainer/healthubimages/Week2/antiarrhythmicmed.png",
+        "title": "How a Healthy Lifestyle Can Help After Catheter Ablation ?",
+        "video": "https://www.youtube.com/embed/Opvz0mnwvYo?si=lyt2_UJXTCJsQWry",
+        "description": "<h5>Eating a Heart-Healthy Diet</h5><ul><li>Eating a heart-healthy diet can support your heart and help prevent complications.</li><li>Eat plenty of fruits, vegetables, and whole grains.</li><li>Avoid foods high in salt, sugar, and unhealthy fats.</li><li>Exercise regularly to keep your heart strong, but follow your doctor’s advice about which activities are safe.</li><li>Avoid smoking and limit alcohol, as these can increase the risk of Afib returning.</li><li>Manage stress with relaxation techniques like deep breathing, yoga, or meditation.</li></ul>"
+      }
+    ]
+  }
+}
