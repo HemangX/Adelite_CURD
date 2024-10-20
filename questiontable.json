@@ -1,0 +1,1736 @@
+[
+    {
+        "ans_category": "The answer options are [quinidine,disopyramide,flecanide,propaphenone,sotalol, dofetilide,dronedarone, amiodarone].",
+        "type_": "string",
+        "description": "Which of the AAD medicine you are using \n1.quinidine  \n2. disopyramide \n3. flecanide \n4. propaphenone \n5. sotalol \n6. dofetilide \n7. dronedarone \n8. amiodarone?",
+        "no": "CIED",
+        "question_key": "AAD_AF",
+        "main_type": "string",
+        "yes": "CIED",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "boolean",
+        "description": " did you have an ablation for atrial fibrillation?",
+        "no": "second_procedure",
+        "question_key": "ablation",
+        "main_type": "radio",
+        "yes": "time_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Are you spending less time with acquaintances?",
+        "no": "planning_activities",
+        "question_key": "acquaintances",
+        "main_type": "string",
+        "yes": "frequency_acquaintances",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "I am sorry to hear that, But were you admitted to the hospital?",
+        "no": "treatment",
+        "question_key": "admitted",
+        "main_type": "string",
+        "yes": "days",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be from options [daily, weekly, several times a week or  several time in a month],if you are able to get answer in daily,weekly,several times a week or several time in a month  put yes in did_you_get_the_answer variable. Don't ask for any confirmation, just parse whatever you get or whatever matches to closest",
+        "type_": "string",
+        "description": "How often do you get AF episodes? Options are \n1. daily \n2. weekly \n3. several times a week \n4. several time in a month",
+        "no": "AF_episodes",
+        "question_key": "AF_episodes",
+        "main_type": "string",
+        "yes": "monitor_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer can be either yes or no.",
+        "type_": "Boolean",
+        "description": "Effecting quality of life for any symptoms or any Af-Sytoms \n1. Yes \n2. No",
+        "no": "physical_symptoms",
+        "question_key": "af_quality_life",
+        "main_type": "string",
+        "yes": "physical_symptoms",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "boolean",
+        "description": "Did you have any episode that lasted long enough or effected your quality of life that you went to the emergency department?",
+        "no": "lasted_long_enough",
+        "question_key": "afib_episode",
+        "main_type": "radio",
+        "yes": "scenario",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be age of the patient. ",
+        "type_": "boolean",
+        "description": "what is the age of the patient?",
+        "no": "gender_female",
+        "question_key": "age_above_75",
+        "main_type": "radio",
+        "yes": "gender_female",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "boolean",
+        "description": "Do you have atrial fibrillation when you are angry or emotionally agitated?",
+        "no": "medication_doses",
+        "question_key": "angry",
+        "main_type": "radio",
+        "yes": "medication_doses",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are [quinidine,disopyramide,flecanide,propaphenone,sotalol, dofetilide,dronedarone, amiodarone].",
+        "type_": "string",
+        "description": "Which of the ANTI-AAD medicine you are using \n1.Warfarin  \n2. dabigatran \n3. rivaroxaban \n4. apixaban \n5. asprin \n6. prasugrel \n7. clopidogrel \n8. tricagrelor?",
+        "no": "CIED",
+        "question_key": "AntiAAD_AF",
+        "main_type": "string",
+        "yes": "CIED",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Does your atrial fibrillation occur when you have anxiety?",
+        "no": "angry",
+        "question_key": "anxiety",
+        "main_type": "string",
+        "yes": "type_of_anxiety",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " Do you have anxiety/worry?",
+        "no": "exercise_key",
+        "question_key": "anxiety_key",
+        "main_type": "string",
+        "yes": "frequency_of_anxiety",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are[cold water on your face, Holding your breath,coughing,bending down,no].",
+        "type_": "string",
+        "description": "Can you Interrupt the arrhythmia by maneuvers?\n1.cold water on your face \n2.Holding your breath \n3.coughing \n4.bending down \n5.no .",
+        "no": "arthymia_qolife",
+        "question_key": "arrhythmia",
+        "main_type": "string",
+        "yes": "arthymia_qolife",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "< Name> Do you have Coronary artery bypass grafting?",
+        "no": "valve_replacement",
+        "question_key": "artery_bypass",
+        "main_type": "string",
+        "yes": "valve_replacement",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be one from [\"yes to a certain extent\", \"yes quite a lot\", \"yes a lot\"]",
+        "type_": "String",
+        "description": "How often do you get it? \n1. yes to a certain extent \n2. yes quite a lot \n3. yes a lot",
+        "no": "afib_episode",
+        "question_key": "arthymia_qolife",
+        "main_type": "Dropdown",
+        "yes": "afib_episode",
+        "options": [
+            "yes to a certain extent",
+            "yes quite a lot",
+            "yes a lot"
+        ]
+    },
+    {
+        "ans_category": "Answer will be either with treatment or without treatment.",
+        "type_": "string",
+        "description": "Did it even lasted while having the treatment?",
+        "no": "more_than_a_year",
+        "question_key": "atrial_treatment",
+        "main_type": "string",
+        "yes": "more_than_a_year",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Does alcohol bring on or trigger your atrial fibrillation?",
+        "no": "coffee_shootup",
+        "question_key": "atrialfibrillation",
+        "main_type": "string",
+        "yes": "coffee_shootup",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no.",
+        "type_": "Boolean",
+        "description": " Do your episodes of atrial fibrillation last more than 7 days and but less than 1 year?",
+        "no": "atrial_treatment",
+        "question_key": "atrialfibrilliation_last",
+        "main_type": "string",
+        "yes": "atrial_treatment",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Are you on blood pressure medications?",
+        "no": "history_of_hypertension",
+        "question_key": "blood_pressure_medications",
+        "main_type": "radio",
+        "yes": "history_of_hypertension",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be boolean yes or no. Once you get are able to get the answer add a sympathic message or motivational message for paitent",
+        "type_": "Boolean",
+        "description": "Have you screened for sleep apnea? [ Yes, No ]",
+        "no": "chronic_obstructive",
+        "question_key": "BMI_calc",
+        "main_type": "string",
+        "yes": "sleep_Treatment",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be options [\"Heart Monitoring\", \"ECG\", \"Implantable loop recorder\", \"Pacemaker\", \"Wearable\"]",
+        "type_": "String",
+        "description": "I am sorry to hear that, How was it diagnosed?\n1. Heart Monitoring \n2. ECG \n3. Implantable loop recorder \n4. Pacemaker \n5. Wearable",
+        "no": "weakness_shootup",
+        "question_key": "bot_diagnosis",
+        "main_type": "string",
+        "yes": "weakness_shootup",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to call 911",
+        "no": "breathing_problem",
+        "question_key": "Bp_Call",
+        "main_type": "string",
+        "yes": "Continue_bloodpressure_medical_assistant",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to call 911",
+        "no": "low_appetite",
+        "question_key": "bp_med_att",
+        "main_type": "string",
+        "yes": "Continue_bloodpressure_medical_att",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer.",
+        "type_": "Boolean",
+        "description": "Do you have breathing trouble with Activity?",
+        "no": "tiredness_key",
+        "question_key": "breathing_key",
+        "main_type": "string",
+        "yes": "frequency_of_breathing",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have any combination of sudden changes in your breathing or shortness of breath, with leg swelling, or waking up in the middle of the night with shortness of breath i.e Yes or No",
+        "no": "low_appetite",
+        "question_key": "breathing_problem",
+        "main_type": "string",
+        "yes": "bp_med_att",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": " Do you have Breathlessness at rest?",
+        "no": "diziness_key",
+        "question_key": "breathlessness_at_rest_key",
+        "main_type": "string",
+        "yes": "frequency_of_breathlessness",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are [Beta Blocker,calcium channel blocker, Digoxin].",
+        "type_": "string",
+        "description": "Which of the cardiac medicine you are using \n1. Beta Blocker \n2. calcium channel blocker \n3. Digoxin \n4. statins?",
+        "no": "CIED",
+        "question_key": "cardiac_AF",
+        "main_type": "string",
+        "yes": "CIED",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either satisfied or unsatisfied.",
+        "type_": "string",
+        "description": "Were you satisfied with your care?",
+        "no": "reasons",
+        "question_key": "care",
+        "main_type": "string",
+        "yes": "lasted_long_enough",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "Boolean",
+        "description": "Do you want to call 911",
+        "no": "stressful_situations",
+        "question_key": "chest_attention",
+        "main_type": "string",
+        "yes": "Continue_chest_pain",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have an elephant sitting on your chest, or if you take a few steps you get chest pain and it improves when you rest? i.e Yes or No>",
+        "no": "stressful_situations",
+        "question_key": "chest_pain",
+        "main_type": "string",
+        "yes": "chest_attention",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have chest pain or tightness or discomfort with respect to Atrial fibrillation?  ",
+        "no": "breathlessness_at_rest_key",
+        "question_key": "chestpain_key",
+        "main_type": "string",
+        "yes": "frequency_of_chestpain",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be boolean yes or no. Once you get are able to get the answer add a sympathic message or motivational message for paitent",
+        "type_": "Boolean",
+        "description": "Do you have chronic obstructive pulmonary disease? [ Yes, No ]",
+        "no": "coronary_artery_blockages",
+        "question_key": "chronic_obstructive",
+        "main_type": "string",
+        "yes": "coronary_artery_blockages",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are [ PSL, PDL, IDSL, IDD, DCR, PCR, ILR, NOTA]. Do return a yes or no at end wether you can parse your answer or not",
+        "type_": "STRING",
+        "description": "Which type of CIED(Cardiac Implantable electronic device) are you using? \n1. PSL (pacemaker single lead) \n2. PDL (pacemaker dual lead) \n3. IDSL (ICD Defibriliator Single Lead), \n4. IDD (ICD Defibrillator Dual) \n5. DCR (Defibriliator Cardiac Resynchronization) \n6. PCR (Pacemaker and Cardiac resynchronization) \n7. ILR (Implantable Loop Recoder) \n8. NOTA",
+        "no": "artery_bypass",
+        "question_key": "CIED",
+        "main_type": "string",
+        "yes": "artery_bypass",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": " Were you given a clinic appointment and how soon were you seen by the specialist?",
+        "no": "admitted",
+        "question_key": "clinic_appointment",
+        "main_type": "string",
+        "yes": "admitted",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": " Does coffee bring on or trigger your atrial fibrillation? ",
+        "no": "spicyfood_shootup",
+        "question_key": "coffee_shootup",
+        "main_type": "string",
+        "yes": "spicyfood_shootup",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be boolean yes or no. Once you get are able to get the answer add a sympathic message or motivational message for paitent",
+        "type_": "Boolean",
+        "description": "Do you have any congestive heart failure? [ Yes, No ]",
+        "no": "medication_type",
+        "question_key": "cognitive_failure",
+        "main_type": "string",
+        "yes": "medication_type",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": " Do you have cold sweats?  ",
+        "no": "anxiety_key",
+        "question_key": "coldsweats_key",
+        "main_type": "string",
+        "yes": "frequency_of_coldsweats",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you feeling reduced ability to concentrate?",
+        "no": "low_mood",
+        "question_key": "concentration_ability",
+        "main_type": "string",
+        "yes": "frequency_concentration",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. ",
+        "type_": "boolean",
+        "description": "Have you been admitted to the hospital recently with any congestive heart failure?",
+        "no": "hypertension",
+        "question_key": "congestive_heart_failure",
+        "main_type": "radio",
+        "yes": "hypertension",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to continue?",
+        "no": "Continue_bloodpressure_medical_assistant",
+        "question_key": "Continue_bloodpressure_medical_assistant",
+        "main_type": "string",
+        "yes": "breathing_problem",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to continue?",
+        "no": "Continue_bloodpressure_medical_att",
+        "question_key": "Continue_bloodpressure_medical_att",
+        "main_type": "string",
+        "yes": "low_appetite",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to continue?",
+        "no": "Continue_bloodpressure_medical_low",
+        "question_key": "Continue_bloodpressure_medical_low",
+        "main_type": "string",
+        "yes": "chest_pain",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to continue?",
+        "no": "Continue_chest_pain",
+        "question_key": "Continue_chest_pain",
+        "main_type": "string",
+        "yes": "stressful_situations",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to continue?",
+        "no": "Continue_medical_assistant",
+        "question_key": "Continue_medical_assistant",
+        "main_type": "string",
+        "yes": "low_Bloodpressure",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Add a sympathetic or motivational message after receiving an answer.",
+        "type_": "Boolean",
+        "description": "Thank you for your time Can I continue with psychological symptoms? \n1. Yes \n2. No",
+        "no": "quit",
+        "question_key": "continue_psych_symp",
+        "main_type": "string",
+        "yes": "concentration_ability",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be boolean yes or no. Once you get are able to get the answer add a sympathic message or motivational message for paitent",
+        "type_": "Boolean",
+        "description": "Do you have any chronic coronary artery blockages? [ Yes, No ]",
+        "no": "heart_valve_disease",
+        "question_key": "coronary_artery_blockages",
+        "main_type": "string",
+        "yes": "heart_valve_disease",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer can be any number of days.",
+        "type_": "boolean",
+        "description": "How many days did you spend in hospital",
+        "no": "treatment",
+        "question_key": "days",
+        "main_type": "radio",
+        "yes": "treatment",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have Dibates_mellitus? [ Yes, No ]",
+        "no": "kindney_disease",
+        "question_key": "diabetes_melitus",
+        "main_type": "string",
+        "yes": "pre_dibaetes",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. ",
+        "type_": "boolean",
+        "description": "Do you have Diabetes Mellitus?",
+        "no": "diabetes_treatment",
+        "question_key": "diabetes_mellitus",
+        "main_type": "radio",
+        "yes": "diabetes_treatment",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be medications or insulin. ",
+        "type_": "boolean",
+        "description": "How did you get your Diabetes Mellitus treated?options \n1. medications \n2. Insulin?",
+        "no": "stroke_mini_stroke",
+        "question_key": "diabetes_treatment",
+        "main_type": "radio",
+        "yes": "stroke_mini_stroke",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " Do you have Dizziness or lightheadedness ( a feeling of faintness)?",
+        "no": "coldsweats_key",
+        "question_key": "diziness_key",
+        "main_type": "string",
+        "yes": "frequency_of_diziness",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be in days,months or years.",
+        "type_": "number",
+        "description": "I am sorry to hear that. What is the duration of each episode",
+        "no": "atrialfibrilliation_last",
+        "question_key": "duration_of_each_episode",
+        "main_type": "integer",
+        "yes": "atrialfibrilliation_last",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Does eating too much bring on or trigger your atrial fibrillation episodes?",
+        "no": "arrhythmia",
+        "question_key": "eating_shootup",
+        "main_type": "string",
+        "yes": "arrhythmia",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "boolean",
+        "description": "Did you have an electrical shock ( cardioversion) to restore normal heart rhythm when in atrial fibrillation?",
+        "no": "rhythm medications",
+        "question_key": "electrical_shock",
+        "main_type": "radio",
+        "yes": "electrical_shock_progress",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either successful or not successful. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " Was the electrical shock (cardioversion ) successful (normal rhythm - sinus rhythm > 7 days) ?",
+        "no": "rhythm medications",
+        "question_key": "electrical_shock_progress",
+        "main_type": "string",
+        "yes": "normal_rhythm",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Were you recommended to go the emergency department?",
+        "no": "medications_adjustment",
+        "question_key": "emergency_department",
+        "main_type": "radio",
+        "yes": "medications_adjustment",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " Did you notice a decrease in exercise capacity or poor effort tolerance ?",
+        "no": "irregular_heartrate_key",
+        "question_key": "exercise_key",
+        "main_type": "string",
+        "yes": "frequency_of_decreased_exercise",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have fainting or near fainting",
+        "no": "low_Bloodpressure",
+        "question_key": "faint",
+        "main_type": "string",
+        "yes": "medical_attention",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you afraid of dying?",
+        "no": "worried_of_recurring",
+        "question_key": "fear_of_dying",
+        "main_type": "string",
+        "yes": "frequency_fear_of_dying",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "  Are your atrial fibrillation episodes triggered by physical activity?",
+        "no": "rapid_movements",
+        "question_key": "fibrilliaton_episodes",
+        "main_type": "string",
+        "yes": "physical_activity",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be in days,months or years.If you are able to get the answer, put \"yes\" in did_you_get_the_answer.",
+        "type_": "number",
+        "description": " how soon after the first procedure. ?",
+        "no": "quit",
+        "question_key": "first_procedure_key",
+        "main_type": "integer",
+        "yes": "quit",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be any thing from options [ freezing , cauterytype , electrical]. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " was it the freezing ( cryoablation) cautery type ( radiofrequency) or electrical ( pulsed-field ablation) ?",
+        "no": "freezing_key",
+        "question_key": "freezing_key",
+        "main_type": "string",
+        "yes": "second_procedure",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "planning_activities",
+        "question_key": "frequency_acquaintances",
+        "main_type": "string",
+        "yes": "planning_activities",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: Yes to a certain extent (occasionally) Scale 2-4, Yes quite a lot (monthly) Scale 5-7, or Yes a lot (weekly or daily) Scale 8-10.",
+        "type_": "String",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "low_mood",
+        "question_key": "frequency_concentration",
+        "main_type": "string",
+        "yes": "low_mood",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: Yes to a certain extent (occasionally) Scale 2-4, Yes quite a lot (monthly) Scale 5-7, or Yes a lot (weekly or daily) Scale 8-10.",
+        "type_": "String",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "worried_of_recurring",
+        "question_key": "frequency_fear_of_dying",
+        "main_type": "string",
+        "yes": "worried_of_recurring",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: Yes to a certain extent (occasionally) Scale 2-4, Yes quite a lot (monthly) Scale 5-7, or Yes a lot (weekly or daily) Scale 8-10.",
+        "type_": "String",
+        "description": "How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "sleep_prob",
+        "question_key": "frequency_irritation",
+        "main_type": "string",
+        "yes": "sleep_prob",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "continue_psych_symp",
+        "question_key": "frequency_life_satisfaction",
+        "main_type": "string",
+        "yes": "continue_psych_symp",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: Yes to a certain extent (occasionally) Scale 2-4, Yes quite a lot (monthly) Scale 5-7, or Yes a lot (weekly or daily) Scale 8-10.",
+        "type_": "String",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "irritation",
+        "question_key": "frequency_low_mood",
+        "main_type": "string",
+        "yes": "irritation",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent,Yes quite a lot or Yes a lot",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "exercise_key",
+        "question_key": "frequency_of_anxiety",
+        "main_type": "string",
+        "yes": "exercise_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be \"yes to a certain extent\",\"Yes quite a lot\" or \"Yes a lot\" .If you are able to get the answer, put \"yes\" in did_you_get_the_answer",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "tiredness_key",
+        "question_key": "frequency_of_breathing",
+        "main_type": "string",
+        "yes": "tiredness_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes to a certain extent,Yes quite a lot or Yes a lot . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "diziness_key",
+        "question_key": "frequency_of_breathlessness",
+        "main_type": "string",
+        "yes": "diziness_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent,Yes quite a lot, Yes a lot . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "breathlessness_at_rest_key",
+        "question_key": "frequency_of_chestpain",
+        "main_type": "string",
+        "yes": "breathlessness_at_rest_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent,Yes quite a lot or Yes a lot . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "anxiety_key",
+        "question_key": "frequency_of_coldsweats",
+        "main_type": "string",
+        "yes": "anxiety_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes to a certain extent,Yes quite a lot or Yes a lot . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "irregular_heartrate_key",
+        "question_key": "frequency_of_decreased_exercise",
+        "main_type": "string",
+        "yes": "irregular_heartrate_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes to a certain extent,Yes quite a lot or Yes a lot . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "coldsweats_key",
+        "question_key": "frequency_of_diziness",
+        "main_type": "string",
+        "yes": "coldsweats_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent, Yes quite a lot or Yes a lot . Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "String",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "missed_beats",
+        "question_key": "frequency_of_harder_beats",
+        "main_type": "string",
+        "yes": "missed_beats",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent, Yes quite a lot or Yes a lot . Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "String",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "harder_beats",
+        "question_key": "frequency_of_irregular_heart_rate",
+        "main_type": "string",
+        "yes": "harder_beats",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent, Yes quite a lot or Yes a lot . Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "String",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "faint",
+        "question_key": "frequency_of_missed_beats",
+        "main_type": "string",
+        "yes": "faint",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent, Yes quite a lot or Yes a lot . Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "String",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "rapid_heart_rate",
+        "question_key": "frequency_of_palpitations",
+        "main_type": "string",
+        "yes": "rapid_heart_rate",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent, Yes quite a lot or Yes a lot . Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "String",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "irregular_heart_rate",
+        "question_key": "frequency_of_rapid_heart_rate",
+        "main_type": "string",
+        "yes": "irregular_heart_rate",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes to a certain extent,Yes quite a lot or Yes a lot . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "chestpain_key",
+        "question_key": "frequency_of_tiredness",
+        "main_type": "string",
+        "yes": "chestpain_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be Yes to a certain extent, Yes quite a lot,  Yes a lot ",
+        "type_": "string",
+        "description": "I am sorry to hear that, How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "breathing_key",
+        "question_key": "frequency_of_weakness",
+        "main_type": "string",
+        "yes": "breathing_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "sexual_life",
+        "question_key": "frequency_physical_ability",
+        "main_type": "string",
+        "yes": "sexual_life",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "sexual_life",
+        "question_key": "frequency_planning_activities",
+        "main_type": "string",
+        "yes": "sexual_life",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "life_satisfaction",
+        "question_key": "frequency_sexual_life",
+        "main_type": "string",
+        "yes": "life_satisfaction",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: Yes to a certain extent (occasionally) Scale 2-4, Yes quite a lot (monthly) Scale 5-7, or Yes a lot (weekly or daily) Scale 8-10.",
+        "type_": "String",
+        "description": "How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "fear_of_dying",
+        "question_key": "frequency_sleep_prob",
+        "main_type": "string",
+        "yes": "fear_of_dying",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "acquaintances",
+        "question_key": "frequency_social_relationships",
+        "main_type": "string",
+        "yes": "acquaintances",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: occasionally, monthly, weekly or daily.",
+        "type_": "Frequency",
+        "description": "How often do you get it? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "social_relationships",
+        "question_key": "frequency_unable_to_walk",
+        "main_type": "string",
+        "yes": "social_relationships",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: Yes to a certain extent (occasionally) Scale 2-4, Yes quite a lot (monthly) Scale 5-7, or Yes a lot (weekly or daily) Scale 8-10.",
+        "type_": "String",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "high_blood_pressure",
+        "question_key": "frequency_worried_of_recurring",
+        "main_type": "string",
+        "yes": "high_blood_pressure",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be gender of patient. ",
+        "type_": "boolean",
+        "description": "what is your gender?",
+        "no": "diabetes_mellitus",
+        "question_key": "gender_female",
+        "main_type": "radio",
+        "yes": "diabetes_mellitus",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "Boolean",
+        "description": "Do you feel that you have harder beats?",
+        "no": "missed_beats",
+        "question_key": "harder_beats",
+        "main_type": "string",
+        "yes": "frequency_of_harder_beats",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be boolean yes or no. Once you get are able to get the answer add a sympathic message or motivational message for paitent",
+        "type_": "Boolean",
+        "description": "Do you have heart valve disease ( mitral stenosis, mitral regurgiation, aortic stenosis, aortic regurgitation, tricuspid valve disease )? [ Yes, No ]",
+        "no": "cognitive_failure",
+        "question_key": "heart_valve_disease",
+        "main_type": "string",
+        "yes": "cognitive_failure",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be float heigh in feet. Once you are able to get answer put \"yes\" in did_you_got_the_answer.",
+        "type_": "Boolean",
+        "description": "What is your height ?",
+        "no": "heigh_feet",
+        "question_key": "heigh_feet",
+        "main_type": "string",
+        "yes": "weight_pound",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have high blood pressure [ Yes, No ]?",
+        "no": "high_cholestrol",
+        "question_key": "high_blood_pressure",
+        "main_type": "string",
+        "yes": "high_cholestrol",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have high cholesterol? [ Yes, No ]",
+        "no": "diabetes_melitus",
+        "question_key": "high_cholestrol",
+        "main_type": "string",
+        "yes": "diabetes_melitus",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be history of patient about his hypertension.",
+        "type_": "string",
+        "description": "What is Your History of Hypertension?",
+        "no": "age_above_75",
+        "question_key": "history_of_hypertension",
+        "main_type": "string",
+        "yes": "age_above_75",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or any synonyms are accepted. ",
+        "type_": "boolean",
+        "description": "Were you sent home?",
+        "no": "admitted",
+        "question_key": "home",
+        "main_type": "radio",
+        "yes": "clinic_appointment",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. ",
+        "type_": "boolean",
+        "description": "Are you on Hypertension (Elevated blood pressure)?",
+        "no": "history_of_hypertension",
+        "question_key": "hypertension",
+        "main_type": "radio",
+        "yes": "blood_pressure_medications",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either a [yes,no] ",
+        "type_": "String",
+        "description": "Hello! My name is Alfred and I’m here to ask you a series of questions about your atrial fibrillation arrhythmia. This process shouldn't take more than 10 minutes per section. I understand that it may be a bit intimidating, but don't worry, we can save your progress and pick up where you left off if needed. Let's get started, shall we? Are you ready?",
+        "no": "prefered_name",
+        "question_key": "initial_question",
+        "main_type": "string",
+        "yes": "prefered_name",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "Boolean",
+        "description": "Do you have an irregular heart rate?",
+        "no": "harder_beats",
+        "question_key": "irregular_heart_rate",
+        "main_type": "string",
+        "yes": "frequency_of_irregular_heart_rate",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " Did you notice an irregular heart rate or fluttering ?",
+        "no": "palpitations",
+        "question_key": "irregular_heartrate_key",
+        "main_type": "string",
+        "yes": "palpitations",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you feeling irritated or angry?",
+        "no": "sleep_prob",
+        "question_key": "irritation",
+        "main_type": "string",
+        "yes": "frequency_irritation",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have kidney diseace? [ Yes, No ]",
+        "no": "heigh_feet",
+        "question_key": "kindney_disease",
+        "main_type": "string",
+        "yes": "heigh_feet",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Did you have any episode that lasted long enough or effected your quality of life that you called your doctor to office?",
+        "no": "response_time",
+        "question_key": "lasted_long_enough",
+        "main_type": "string",
+        "yes": "scenario_description",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "  Is Removal of left atrial appendage at the time of open heart surgery?",
+        "no": "watchman_device",
+        "question_key": "left_atrial",
+        "main_type": "radio",
+        "yes": "watchman_device",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you deteriorated life satisfaction?",
+        "no": "continue_psych_symp",
+        "question_key": "life_satisfaction",
+        "main_type": "string",
+        "yes": "frequency_life_satisfaction",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be options [\"Primary care office\", \"Cardiologist Office\", \"Cariac Electrophysiologist\", \"Urgent Care\", \"Emergency Room\"]",
+        "type_": "String",
+        "description": "What was the location of Afib Diagnosis? \n1. Primary Care office \n2. Cardiologist Office \n3. Cardiac Electrophysiologist \n4. Urgent Care \n5. Emergency Room",
+        "no": "bot_diagnosis",
+        "question_key": "location",
+        "main_type": "string",
+        "yes": "bot_diagnosis",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be from options [minutes, hours, days],if you are able to get answer in minutes,hours or days put yes in did_you_get_the_answer variable",
+        "type_": "string",
+        "description": " what is the longest duration that you are in AF, when you go into AF? Options are \n1. Minutes \n2. Hours \n3. Days",
+        "no": "longest_duration",
+        "question_key": "longest_duration",
+        "main_type": "string",
+        "yes": "AF_episodes",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "<Name>  Do you have any combination of low appetite, low urine flow, forgetfulness, low blood pressure ( blood pressure top number less than 90),  leg swelling?i.e Yes or  No",
+        "no": "chest_pain",
+        "question_key": "low_appetite",
+        "main_type": "string",
+        "yes": "low_att",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to call 911",
+        "no": "chest_pain",
+        "question_key": "low_att",
+        "main_type": "string",
+        "yes": "Continue_bloodpressure_medical_low",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have Low blood pressure (top number below 90)i.e Yes, No",
+        "no": "breathing_problem",
+        "question_key": "low_Bloodpressure",
+        "main_type": "string",
+        "yes": "Bp_Call",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you feeling low-spirited or sad?",
+        "no": "irritation",
+        "question_key": "low_mood",
+        "main_type": "string",
+        "yes": "frequency_low_mood",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you want to call 911",
+        "no": "low_Bloodpressure",
+        "question_key": "medical_attention",
+        "main_type": "string",
+        "yes": "Continue_medical_assistant",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Are you using AAD type of medication for treating the AF?",
+        "no": "medication_ANT",
+        "question_key": "medication_AAD",
+        "main_type": "radio",
+        "yes": "AAD_AF",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Are you using ANT type of medication for treating the AF?",
+        "no": "medication_ANT",
+        "question_key": "medication_ANT",
+        "main_type": "radio",
+        "yes": "AntiAAD_AF",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": " Does your atrial fibrillation occur when you have missed medication doses?",
+        "no": "atrialfibrillation",
+        "question_key": "medication_doses",
+        "main_type": "string",
+        "yes": "atrialfibrillation",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Are you using cardiac type of medication for treating the AF?",
+        "no": "medication_AAD",
+        "question_key": "medication_type",
+        "main_type": "radio",
+        "yes": "cardiac_AF",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Were medications adhudted?",
+        "no": "setup",
+        "question_key": "medications_adjustment",
+        "main_type": "radio",
+        "yes": "setup",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "Boolean",
+        "description": "Do you feel like you are having missed beats?",
+        "no": "faint",
+        "question_key": "missed_beats",
+        "main_type": "string",
+        "yes": "frequency_of_missed_beats",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are [2 days,1 week, 14 days or 1 month], If you are able to get answer in any one of days, weeks or  months put yes in did_you_get_the_answer variable",
+        "type_": "string",
+        "description": " If you were placed on a monitor what % of the monitoring time did your healthcare provider tell you that you are in atrial fibrillation?Options are \n1.2 days \n2. 1 week \n3. 14 days \n4. 1 month",
+        "no": "monitor_key",
+        "question_key": "monitor_key",
+        "main_type": "string",
+        "yes": "af_quality_life",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no",
+        "type_": "boolean",
+        "description": "Have you been in atrial fibrillation for more than a year?",
+        "no": "location",
+        "question_key": "more_than_a_year",
+        "main_type": "radio",
+        "yes": "location",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be in days. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "number",
+        "description": " how many days were you in normal (sinus) rhythm before going back to fibrillation?",
+        "no": "normal_rhythm",
+        "question_key": "normal_rhythm",
+        "main_type": "integer",
+        "yes": "rhythm medications",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "boolean",
+        "description": " did it help you with normal rhythm?",
+        "no": "normalrhythm_key",
+        "question_key": "normalrhythm_key",
+        "main_type": "radio",
+        "yes": "quality_of_life",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either a [yes,no] ",
+        "type_": "Boolean",
+        "description": "I want to ask you some questions, about your symptom are you ready?",
+        "no": "open_ended",
+        "question_key": "open_ended",
+        "main_type": "string",
+        "yes": "type_of_af",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "Boolean",
+        "description": "Do you experience palpitations?",
+        "no": "rapid_heart_rate",
+        "question_key": "palpitations",
+        "main_type": "string",
+        "yes": "frequency_of_palpitations",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you feeling reduced physical ability?",
+        "no": "sexual_life",
+        "question_key": "physical_ability",
+        "main_type": "string",
+        "yes": "frequency_physical_ability",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are[Jumping, Aerobics,Walking,Brisk Waking,Running,Jogging,Cycling,Swimming,Dancing].",
+        "type_": "string",
+        "description": "What is the type of physical activity?\n1.Jumping \n2.Aerobics \n3 Walking \n4.Brisk Waking\n5.Running \n6.Jogging \n7.Cycling \n8.Swimming \n9.Dancing",
+        "no": "rapid_movements",
+        "question_key": "physical_activity",
+        "main_type": "string",
+        "yes": "rapid_movements",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Can I ask if any one of the physical symptoms affects you? Yes/No",
+        "no": "continue_psych_symp",
+        "question_key": "physical_symptoms",
+        "main_type": "string",
+        "yes": "unable_to_walk",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be any place. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "where was it done?",
+        "no": "place",
+        "question_key": "place",
+        "main_type": "string",
+        "yes": "normalrhythm_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Are you avoiding planning things you enjoyed doing?",
+        "no": "physical_ability",
+        "question_key": "planning_activities",
+        "main_type": "string",
+        "yes": "frequency_planning_activities",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have Pre Diabetes? [ Yes, No ]",
+        "no": "kindney_disease",
+        "question_key": "pre_dibaetes",
+        "main_type": "string",
+        "yes": "kindney_disease",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The anwer will be name of a person. Once you get the answer. Please put \"yes\" in did_you_got_the_answer once you are able to get the name/'",
+        "type_": "String",
+        "description": "What is your prefered name?",
+        "no": "prefered_name",
+        "question_key": "prefered_name",
+        "main_type": "string",
+        "yes": "pronoun_question",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The anwer will be pronoun for a person. Return answer without any kind of prefix or suffix added by you",
+        "type_": "String",
+        "description": "Do you have any specific pronoun you would like to be addressed with?",
+        "no": "open_ended",
+        "question_key": "pronoun_question",
+        "main_type": "string",
+        "yes": "open_ended",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes a lot or no not at all .If you are able to get the answer, put \"yes\" in did_you_get_the_answer",
+        "type_": "boolean",
+        "description": " did it help with your quality of life?",
+        "no": "quality_of_life",
+        "question_key": "quality_of_life",
+        "main_type": "radio",
+        "yes": "freezing_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get an answer, add a sympathetic message or motivational message for the patient.",
+        "type_": "Boolean",
+        "description": "Do you have a rapid heart rate?",
+        "no": "irregular_heart_rate",
+        "question_key": "rapid_heart_rate",
+        "main_type": "string",
+        "yes": "frequency_of_rapid_heart_rate",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": " Is atrial fibrillation triggered by rapid movements such as bending or standing?",
+        "no": "anxiety",
+        "question_key": "rapid_movements",
+        "main_type": "string",
+        "yes": "anxiety",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be any reason like allergy etc. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "Why not effective?",
+        "no": "reason",
+        "question_key": "reason",
+        "main_type": "string",
+        "yes": "ablation",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be any reasons because of unsatisfaction.",
+        "type_": "string",
+        "description": "Why, and can you tell the top 1-3 reasons for your unsatisfactory?",
+        "no": "lasted_long_enough",
+        "question_key": "reasons",
+        "main_type": "string",
+        "yes": "lasted_long_enough",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be in minutes,hours or days.",
+        "type_": "string",
+        "description": "What was the response time?",
+        "no": "emergency_department",
+        "question_key": "response_time",
+        "main_type": "string",
+        "yes": "emergency_department",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "boolean",
+        "description": "<Name> Were you on any rhythm medications ( flecainide/Tambocor, propafenone/rhythmol, dronedarone/multaq or sotalol or amiodarone or dofetilide/tikosyn)",
+        "no": "ablation",
+        "question_key": "rhythm medications",
+        "main_type": "radio",
+        "yes": "rhythm_control",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either effective or not effective. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "Was it effective in controlling your rhythm?",
+        "no": "reason",
+        "question_key": "rhythm_control",
+        "main_type": "string",
+        "yes": "side_effects",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Accept anything what user gives dosent matter just return his response, Once you are able to retrive put yes in did_you_got_the_answer",
+        "type_": "string",
+        "description": "I am sorry to hear that, Can you Describe this scenario?",
+        "no": "home",
+        "question_key": "scenario",
+        "main_type": "string",
+        "yes": "home",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer can be any scenario.",
+        "type_": "string",
+        "description": "Can you describe this scenario",
+        "no": "response_time",
+        "question_key": "scenario_description",
+        "main_type": "string",
+        "yes": "response_time",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. ",
+        "type_": "string",
+        "description": "Did you have a second procedure?",
+        "no": "weakness_shootup",
+        "question_key": "second_procedure",
+        "main_type": "string",
+        "yes": "first_procedure_key",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either electrical shock or ablation.",
+        "type_": "string",
+        "description": "Were you setup for an electrical shock or ablation?",
+        "no": "shortest_duration",
+        "question_key": "setup",
+        "main_type": "string",
+        "yes": "shortest_duration",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you negatively affected by sexual life?",
+        "no": "life_satisfaction",
+        "question_key": "sexual_life",
+        "main_type": "string",
+        "yes": "frequency_sexual_life",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be in the format of for any of one \"[number] day(s) or  [number] hour(s) or [number] minute(s)\". For example: \"1 day or  2 hours or 10 minutes\". If you are able to get the answer in this format, set the `did_you_get_the_answer` variable to \"yes\".",
+        "type_": "string",
+        "description": "what is the shortest duration that you are in AF, when you go into AF? Options are \n1. Minutes \n2. Hours \n3. Days ",
+        "no": "shortest_duration",
+        "question_key": "shortest_duration",
+        "main_type": "string",
+        "yes": "longest_duration",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "boolean",
+        "description": " <Name>, did you have any side effects from the rhythm medication?",
+        "no": "side_effects",
+        "question_key": "side_effects",
+        "main_type": "radio",
+        "yes": "side_effects_type",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be like breathing problem etc. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": " Can you please describe the side effects you had?",
+        "no": "side_effects_type",
+        "question_key": "side_effects_type",
+        "main_type": "string",
+        "yes": "ablation",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "How often do you feel that? \n1. Yes to a certain extent \n2. Yes quite a lot \n3. Yes a lot",
+        "no": "physical_ability",
+        "question_key": "skipping_frequency",
+        "main_type": "string",
+        "yes": "physical_ability",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Are you avoiding things you would enjoy doing?",
+        "no": "skipping_frequency",
+        "question_key": "skipping_things",
+        "main_type": "string",
+        "yes": "physical_ability",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Are you suffering from sleep problems?",
+        "no": "fear_of_dying",
+        "question_key": "sleep_prob",
+        "main_type": "string",
+        "yes": "frequency_sleep_prob",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be boolean yes or no. Once you get are able to get the answer add a sympathic message or motivational message for paitent",
+        "type_": "Boolean",
+        "description": "Are you taking any Treatment for sleep apnea? [Yes, No]",
+        "no": "chronic_obstructive",
+        "question_key": "sleep_Treatment",
+        "main_type": "string",
+        "yes": "chronic_obstructive",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted..",
+        "type_": "Boolean",
+        "description": "Are you spending less time with your relatives and friends?",
+        "no": "acquaintances",
+        "question_key": "social_relationships",
+        "main_type": "string",
+        "yes": "frequency_social_relationships",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do fat or spicy foods trigger or bring on your atrial fibrillation episodes?",
+        "no": "eating_shootup",
+        "question_key": "spicyfood_shootup",
+        "main_type": "string",
+        "yes": "eating_shootup",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Does atrial fibrillation occur in stressful situations?. Yes/No",
+        "no": "fibrilliaton_episodes",
+        "question_key": "stressful_situations",
+        "main_type": "string",
+        "yes": "type_of_stressful_situations",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. ",
+        "type_": "boolean",
+        "description": "Did you experience a stroke or any mini-stroke?",
+        "no": "vascular_disease",
+        "question_key": "stroke_mini_stroke",
+        "main_type": "radio",
+        "yes": "vascular_disease",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be in the format of dd/mm/yyyy . Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "number",
+        "description": " when was it done ?",
+        "no": "time_key",
+        "question_key": "time_key",
+        "main_type": "integer",
+        "yes": "place",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no or maybe he can say He don't know the answer. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "string",
+        "description": "Do you feel tiredness?",
+        "no": "chestpain_key",
+        "question_key": "tiredness_key",
+        "main_type": "string",
+        "yes": "frequency_of_tiredness",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either new medication or electric shock.",
+        "type_": "string",
+        "description": "What treatments were given?",
+        "no": "care",
+        "question_key": "treatment",
+        "main_type": "string",
+        "yes": "care",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be any string. Once you are able to get answer put \"yes\" in did_you_get_the_anwer after ,",
+        "type_": "string",
+        "description": "What is the type?",
+        "no": "left_atrial",
+        "question_key": "type",
+        "main_type": "string",
+        "yes": "left_atrial",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no or any synonyms are accepted.",
+        "type_": "Boolean",
+        "description": "Have you been told that you have had atrial fibrillation before?",
+        "no": "without_treatment",
+        "question_key": "type_of_af",
+        "main_type": "string",
+        "yes": "year_of_af",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are[General Anxeity,Panic Disorder,Phobia,Social Anxiety Disorder,Separation Anxiety Disorder.",
+        "type_": "string",
+        "description": "I am sorry to hear that, what is the type of anxiety?n1.General Anxeity \n2.Panic Disorder \n3 Phobia \n4.Social Anxiety Disorder\n5.Separation Anxiety Disorder",
+        "no": "angry",
+        "question_key": "type_of_anxiety",
+        "main_type": "string",
+        "yes": "angry",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer options are[Financial, Life,Occupational,Social,Health,Environmental].",
+        "type_": "string",
+        "description": "What is the type of stressful situation?\n1.Financial \n2.Life \n3 Occupational \n4.Social \n5.Health \n6.Environmental",
+        "no": "fibrilliaton_episodes",
+        "question_key": "type_of_stressful_situations",
+        "main_type": "string",
+        "yes": "fibrilliaton_episodes",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or a no or any synonyms are accepted..",
+        "type_": "Boolean",
+        "description": "Are you unable to walk, stand, or carry out daily activities?",
+        "no": "social_relationships",
+        "question_key": "unable_to_walk",
+        "main_type": "string",
+        "yes": "frequency_unable_to_walk",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either replaced or repaired.",
+        "type_": "string",
+        "description": "Do you have a Heart valve replaced or repaired?",
+        "no": "type",
+        "question_key": "valve_replacement",
+        "main_type": "string",
+        "yes": "type",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. ",
+        "type_": "boolean",
+        "description": "Have you experienced any of vascular disease (prior heart attacks, circulation problems in legs, significant coronary artery blockages, complex aortic plaque in the descending aorta)?",
+        "no": "electrical_shock",
+        "question_key": "vascular_disease",
+        "main_type": "radio",
+        "yes": "electrical_shock",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no.",
+        "type_": "boolean",
+        "description": "Do you have a Watchman device ( closure of left atrial appendage)?",
+        "no": "congestive_heart_failure",
+        "question_key": "watchman_device",
+        "main_type": "radio",
+        "yes": "congestive_heart_failure",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be either yes or no. Once you are able to get answer add a sympathic message or motivational message for patient",
+        "type_": "Boolean",
+        "description": "Do you have any generalized weakness or fatigue or decrease in exercise capacity or effort intolrenace? ",
+        "no": "breathing_key",
+        "question_key": "weakness_shootup",
+        "main_type": "string",
+        "yes": "frequency_of_weakness",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The answer will be float weight in pounds.Once you are able to get weight, put yes in did_you_got_the_answer",
+        "type_": "Integer",
+        "description": "What is your weight?",
+        "no": "weight_pound",
+        "question_key": "weight_pound",
+        "main_type": "string",
+        "yes": "BMI_calc",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer will be either yes or no.",
+        "type_": "Boolean",
+        "description": "Do your episodes of atrial fibrillation stop without treatment?",
+        "no": "atrialfibrilliation_last",
+        "question_key": "without_treatment",
+        "main_type": "string",
+        "yes": "duration_of_each_episode",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "Answer: yes or no. Ask about the frequency once answered.",
+        "type_": "Boolean",
+        "description": "Do you feel worried that symptoms will recur?",
+        "no": "high_blood_pressure",
+        "question_key": "worried_of_recurring",
+        "main_type": "string",
+        "yes": "frequency_worried_of_recurring",
+        "options": "[\"yes\", \"no\"]"
+    },
+    {
+        "ans_category": "The anwer will be any days,months or year.",
+        "type_": "number",
+        "description": "I am sorry to hear that. When you were diagonised with Afib?",
+        "no": "without_treatment",
+        "question_key": "year_of_af",
+        "main_type": "integer",
+        "yes": "without_treatment",
+        "options": "[\"yes\", \"no\"]"
+    }
+]

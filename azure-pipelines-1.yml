@@ -1,0 +1,53 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+ 
+trigger:
+  branches:
+    include:
+      - dev
+    exclude:
+      - main
+ 
+pool:
+  name: Default
+  demands:
+  - agent.name -equals azureagent
+ 
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+    architecture: 'x64'
+ 
+- bash: |    
+    pip install --target="./.python_packages/lib/site-packages" -r ./requirements.txt
+  displayName: 'Install dependencies'
+ 
+ 
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.Repository.LocalPath)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+ 
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    artifactName: 'drop'
+    publishLocation: 'Container'
+ 
+- task: AzureFunctionApp@2
+  inputs:
+    azureSubscription: $(azureSubscription)
+    appType: 'functionAppLinux' # Use 'functionApp' for Windows
+    appName: $(appname)
+    resourceGroupName: $(RG)
+    package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    runtimeStack: PYTHON|3.10
+    slotName: 'preprod'
+    deployToSlotOrASE: true
+    deploymentMethod: 'runFromPackage'

@@ -1,0 +1,21 @@
+site_name: Vectramind Docs
+theme:
+  name: material
+  logo: Untitled.png
+  # custom_dir: path/to/your/custom/css
+  extra:
+    social_links:
+      - title: GitHub
+        href: https://github.com/vectramind
+      - title: Twitter
+        href: https://twitter.com/vectramind
+nav:
+  - Home: index.md
+  - Inital Setup:
+      - Setup GitLab Account: gitlab.md
+      - Setup Db Account: important-pages/starting-the-server.md
+      - Building the Site: important-pages/building-the-site.md
+      - Help Message: important-pages/help-message.md
+  - Another Section:
+      - Page One: another-section/page-one.md
+      - Page Two: another-section/page-two.md

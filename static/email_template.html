@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Registration Notification</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f4; padding: 20px;">
+    <div style="max-width: 600px; margin: auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border: 2px solid #ccc;">
+        <img src="https://imagesgaccount.blob.core.windows.net/imagecontainerstorage/logo.png?sp=r&st=2024-07-02T06:06:22Z&se=2050-02-07T14:06:22Z&spr=https&sv=2022-11-02&sr=b&sig=Wht4KAELtmc%2Bk2nQZOeBVj4Uczp%2BqUwVAqNtTzqAioQ%3D" alt="Logo" style="display: block; margin: 0 auto 20px auto; max-width: 100px;">
+        <h1 style="font-size: 24px; margin-bottom: 20px; text-align: center; color: #333333;">New User Registration Notification</h1>
+        <p>Dear <span style="font-weight: bold;">[DR_NAME]</span>,</p>
+        <p>We hope this message finds you well.</p>
+        <p>We would like to inform you that a new user has signed up for HelloAlfred. Please review the user's details and assign the appropriate permissions. Below are the action buttons for your convenience:</p>
+        <p><strong>User Details:</strong></p>
+        <p>Name: <span style="font-weight: bold;">{username}</span><br>
+           Email: <span style="font-weight: bold;">{email}</span><br>
+           Date of Registration: {CURRENT_DATE}</p>
+        <p><strong>Action Required:</strong> Please choose one of the following options:</p>
+        <div style="text-align: center;">
+            <a href="{ACCEPT_URL}" style="display: inline-block; padding: 10px 20px; border-radius: 5px; margin-right: 10px; text-decoration: none; color: #28a745; font-weight: bold; text-align: center; border: 2px solid #28a745;">Accept</a>
+            <a href="{REJECT_URL}" style="display: inline-block; padding: 10px 20px; border-radius: 5px; margin-right: 10px; text-decoration: none; color: #dc3545; font-weight: bold; text-align: center; border: 2px solid #dc3545;">Reject</a>
+            <a href="{ON_HOLD_URL}" style="display: inline-block; padding: 10px 20px; border-radius: 5px; margin-right: 10px; text-decoration: none; color: #ffc107; font-weight: bold; text-align: center; border: 2px solid #ffc107;">On Hold</a>
+            <a href="{PENDING_URL}" style="display: inline-block; padding: 10px 20px; border-radius: 5px; margin-right: 10px; text-decoration: none; color: #007bff; font-weight: bold; text-align: center; border: 2px solid #007bff;">Pending</a>
+        </div>
+        <p><strong>Disclaimer:</strong></p>
+        <p style="color: gray;">This message was sent from HelloAlfred.ai. The contents of this email may contain legally protected confidential or privileged information of HelloAlfred.ai. If you are not the intended recipient, you should not disseminate, distribute, or copy this e-mail. Please notify the sender immediately and destroy all copies of this message and any attachments. If you have received this email in error, please promptly notify the sender by reply email and delete the original email and any backup copies without reading them.</p>
+        <p>Thanks,<br> HelloAlfred Team</p>
+        <p style="color: gray;">This email was sent from HelloAlfred.ai. Please do not reply to this email.</p>
+    </div>
+</body>
+</html>
